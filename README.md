@@ -1,6 +1,6 @@
 # go-shop
 
-Online golang dengan Tailwind
+Online Shop with Go Lang + Tailwind CSS
 
 Untuk menjalankan program pertama harus install package yang dibutuhkan dengan perintah:
 
@@ -18,6 +18,6 @@ server running di localhost:8080
 
 ```
 
-screenshot program
+Screenshot Shop :
 
 ![Alt text](./Screenshot-1.png?raw=true "Title")
