@@ -1,6 +1,6 @@
 # go-shop
 
-Template awal golang 
+Online golang dengan Tailwind
 
 Untuk menjalankan program pertama harus install package yang dibutuhkan dengan perintah:
 
