@@ -1,0 +1,63 @@
+{{ template "base" .}} {{ define "content"}}
+<div class="flex justify-center md:justify-end">
+  <a
+    href="#"
+    class="
+      btn
+      text-red-400
+      border-red-400
+      md:border-2
+      hover:bg-red-400 hover:text-white
+      transition
+      ease-out
+      duration-500
+      p-1.5
+      rounded-lg
+    "
+    >Log in</a
+  >
+  <a
+    href="#"
+    class="
+      btn
+      text-red-400
+      ml-2
+      border-red-400
+      md:border-2
+      hover:bg-red-400 hover:text-white
+      transition
+      ease-out
+      duration-500
+      p-1.5
+      rounded-lg
+    "
+    >Sign up</a
+  >
+</div>
+<header class="mt-4">
+  <h2 class="text-gray-700 text-6xl font-semibold leading-none tracking-wider">
+    ABOUT PAGE
+  </h2>
+  <h3 class="text-2xl font-semibold tracking-wider">This is a about page</h3>
+</header>
+
+<div>
+  <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Latest Products</h4>
+  <div class="card bg-white hover:shadow-lg p-1.5">
+      <br> 
+      <p>Render Data: </p><br>
+    <p>Selamat datang {{ index .StringMap "test" }}</p><br>
+    <p>
+      {{if ne (index .StringMap "remote_ip") ""}} Your Ip Address : {{index
+      .StringMap "remote_ip"}} {{ else }} Please visit <a href="/">Home</a>
+      {{end}}
+    </p>
+    <a href="#" class="button">Test Button</a>
+
+
+  </div>
+
+  <div class="mt-8 grid lg:grid-cols-3 gap-10"></div>
+</div>
+
+{{end}}

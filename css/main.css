@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+.button { @apply inline-block m-2 p-2 rounded-md bg-green-400; }
+@tailwind utilities;
+
+.card{
+@apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
+}
+  
+.badge{
+@apply absolute top-0 ml-2 p-2 mt-2 bg-green-400 text-gray-100 text-xs uppercase font-bold rounded-lg;
+}
+  
+.btn{
+@apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer;
+}
